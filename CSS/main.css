@@ -1,0 +1,83 @@
+h1 {
+    color: #335576;
+}
+
+.main-image {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;    
+    justify-content: space-around;
+    background-color: #FEFAF5;
+}
+
+.main-image__text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.main-image__image img {
+    height: 40vh;
+    width: 25vw;
+}
+
+.main-image--button {
+    background-color: #DB7A4E;    
+    margin: 0;
+    border-radius: 5px;
+    border: 0;
+    padding: 2px;
+    width: 150px;
+    height: 40px;
+    align-items: center;
+}
+
+.main-image--button p {
+    color: white;
+}
+
+.Recommendations h2 {
+    color: #335576;
+}
+
+.card {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.card {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    width: 400px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 0 4px 4px rgba (0, 0, 0, .20);
+    padding: 0, 10px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.card img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card h2 {
+    position: absolute;
+    color: white;
+    padding-right: 25px;
+}
